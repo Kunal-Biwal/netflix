@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+        }
+        .net{
+            height:611px;
+            background-color: black;
+        }
+        img{
+            height:100%;
+            width:100%;
+        }
+        .nt{
+            height:64px;
+            width:125px;
+            position: relative;
+            left:100px;
+            bottom:600px;
+
+        }
+        .box{
+            height:535px;
+            width:450px;
+            background-color: #000000B3;
+            position: relative;
+            left:350px;
+            bottom:600px;
+            display:flex;
+            justify-content: space-evenly;
+            align-items: center;
+            flex-direction: column;
+        }
+        .head{
+            height:42px;
+            width:314px;
+            /* background-color: aqua; */
+            font-size: 35px;
+            font-weight: bold;
+            color: white;
+            font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+        }
+       
+        .head2{
+            height:316px;
+            width:314px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .d1{
+            height:15%;
+            width:100%;
+        }
+        .d2{
+            height:15%;
+            width:100%; 
+        }
+        .d3{
+            height:10%;
+            width:100%;
+            border-radius: 15%;
+        }
+        
+        .d4{
+            height:5%;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            color:grey;
+            font-size: 12px;
+            
+        }
+        .d5{
+            height:10%;
+            width:100%;
+            background-color: rgb(6, 44, 28);
+        }
+        .d6{
+            height:5%;
+            width:100%;
+            /* background-color: grey; */
+            color:white;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .head3{
+            height:241px;
+            width:314px;
+            display: flex;
+            align-items: center;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        input{
+            height:100%;
+            width:100%;
+            background-color: #000000B3;
+        }
+        .d3 button{
+            height:100%;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color: red;
+            color:white;
+            font-weight: bold;
+            border-radius: 5%;
+        }
+        #btn{
+            height:100%;
+            width:100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            background-color:grey;
+            color:white;
+            font-weight: bold;
+            border-radius: 5%;
+
+        }
+        .p1{
+            height: 8%;
+            width: 100%;
+            color:white;
+            display: flex;
+            align-items: center;
+            justify-content:flex-start;
+            font-size:16px;
+        }
+        .p2{
+            height: 8%;
+            width: 100%;
+            font-size: 16px;
+            display: flex;
+            color:white;
+            align-items: center;
+            justify-content:flex-start;
+        }
+        .p3{
+            height: 15%;
+            width: 100%;
+            color:white;
+            font-size:13px;
+    
+        }
+        .footer{
+            height:551px;
+            background-color:black;
+            position: relative;
+            bottom:600px;
+        }
+        .foot{
+            height:80%;
+            width:90%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: row;
+            margin-left: 50px;
+            font-size: 14px;
+        }
+        .f1{
+            height:70%;
+            width:20%;
+            color:white;
+            display: flex;
+            align-items:flex-start;
+            justify-content: space-around;
+            flex-direction: column;
+        }
+
+        .f2{
+            height:50%;
+            width:20%;
+            color:white;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .f3{
+            height:50%;
+            width:20%;
+            color:white;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        .f4{
+            height:50%;
+            width:20%;
+            color:white;
+            display: flex;
+            align-items: flex-start;
+            justify-content: space-evenly;
+            flex-direction: column;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="net">
+        <img src="https://www.pcworld.com/wp-content/uploads/2024/06/Netflix-Hintergrund.jpg?resize=1024%2C576&quality=50&strip=all">
+        
+    </div>
+    <div class="nt">
+        <img src="https://t3.ftcdn.net/jpg/04/81/76/22/240_F_481762281_Xcvl3QsGh1pBMvQuyKIoIqq8aYksXEwX.jpg">   
+        
+    </div>
+    
+    <div class="box">
+        <div class="head">sign In</div>
+        <div class="head2">
+            <div class="d1">
+                <input type="text" placeholder="email or mobile number">
+            </div>
+            <div class="d2">
+                <input type="password" placeholder="password">
+            </div>
+            <div class="d3"> 
+                <button>sign in</button>
+            </div>
+            <div class="d4">OR</div>
+            <div class="d5"><button id="btn">
+                use a sign-in code
+            </button></div>
+            <div class="d6">Forgot password?</div>
+        </div>
+        <div class="head3">
+            <div class="p1">Remember me</div>
+            <div class="p2">New to Netflix? Sign up now.</div>
+            <div class="p3">This page is protected by Google reCAPTCHA to ensure you're not a bot. Learn more.</div>
+        </div>
+    </div>
+    <div class="footer">
+        <div class="foot">
+            <div class="f1">
+                <p>Questions? Call 1-844-505-2993</p>
+                <a>FAQ</a>
+                <a>privacy</a>
+                <a>Ad Choices</a>
+                <button>
+                    <select name="car" id="cars">
+                        <option value="volvo">English</option>
+                        <option value="saab">Espanol</option>
+                      </select>
+                </button>
+            </div>
+            <div class="f2">
+                <a>
+                    Help Centre</a>
+                    <a>Cookie Preferences</a>
+            </div>
+            <div class="f3">
+                <a>Netflix Shop</a>
+                <a>Corporate Information</a>
+            </div>
+            <div class="f4">
+                <a>
+                    Terms of Use</a>
+                    <a>
+                        Do Not Sell or Share My Personal Information</a>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
